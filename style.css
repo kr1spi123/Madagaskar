@@ -14,3 +14,44 @@ header{
     align-items: center;
     background-color: rgb(60, 60, 91);
 }
+.title{
+    color: rgb(231, 119, 15);
+    font-size: 40px;
+}
+.employees{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.employee{
+    margin: 20px 30px;
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 91);
+    border-radius: 10px;
+    color: rgb(231, 119, 15);
+    padding: 5px;
+    transition: 300ms;
+    box-shadow: 10px 10px 50px #615b9157;
+}
+.employee h2{
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.employee img{
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+}
+.employee:hover{
+    padding: 7px;
+}
