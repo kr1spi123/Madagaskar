@@ -5,19 +5,17 @@
 body {
     background-color: rgb(34, 34, 51);
 }
-
-.logo {
-    padding-left: 100px;
+.logo{
     width: 200px;
 }
 
 header {
     display: flex;
+    justify-content: space-around;
     height: 100px;
     align-items: center;
     background-color: rgb(60, 60, 91);
 }
-
 .call-btn {
     background: #222233;
     color: #fff;
@@ -29,6 +27,23 @@ header {
 
 .call-btn:hover {
     background: #323238;
+}
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        padding: 5px;
+    }
+    & a:hover{
+        font-weight: bold;
+        border-bottom: 2px solid white;
+        
+    }
 }
 
 .hero-section {
