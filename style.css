@@ -1,18 +1,32 @@
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
+
+body {
     background-color: rgb(34, 34, 51);
 }
 .logo{
     width: 200px;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-around;
     height: 100px;
     align-items: center;
     background-color: rgb(60, 60, 91);
+}
+.call-btn {
+    background: #222233;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.call-btn:hover {
+    background: #323238;
 }
 .links{
     width: 40%;
