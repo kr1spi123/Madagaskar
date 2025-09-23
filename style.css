@@ -1,0 +1,16 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(34, 34, 51);
+}
+.logo{
+    padding-left: 100px;
+    width: 200px;
+}
+header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: rgb(60, 60, 91);
+}
