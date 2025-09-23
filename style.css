@@ -30,3 +30,40 @@ header {
 .call-btn:hover {
     background: #323238;
 }
+
+.hero-section {
+    padding: 48px 0 24px;
+    background: linear-gradient(180deg, #f0fdf4, #ffffff);
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.slides {
+    display: grid;
+}
+
+.slide {
+    display: none;
+    padding: 48px;
+    min-height: 220px;
+}
+
+.slide.is-active {
+    display: block;
+}
+
+.slide h2 {
+    margin: 0 0 8px;
+    font-size: 36px;
+}
+
+.slide p {
+    margin: 0;
+    color: #4b5563;
+}
