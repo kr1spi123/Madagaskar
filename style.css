@@ -1,18 +1,86 @@
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
+
+body {
     background-color: rgb(34, 34, 51);
 }
 .logo{
-    padding-left: 100px;
     width: 200px;
 }
-header{
+
+header {
     display: flex;
+    justify-content: space-around;
     height: 100px;
     align-items: center;
     background-color: rgb(60, 60, 91);
+}
+.call-btn {
+    background: #222233;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.call-btn:hover {
+    background: #323238;
+}
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    & a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        padding: 5px;
+    }
+    & a:hover{
+        font-weight: bold;
+        border-bottom: 2px solid white;
+        
+    }
+}
+
+.hero-section {
+    padding: 48px 0 24px;
+    background: linear-gradient(180deg, #f0fdf4, #ffffff);
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.slides {
+    display: grid;
+}
+
+.slide {
+    display: none;
+    padding: 48px;
+    min-height: 220px;
+}
+
+.slide.is-active {
+    display: block;
+}
+
+.slide h2 {
+    margin: 0 0 8px;
+    font-size: 36px;
+}
+
+.slide p {
+    margin: 0;
+    color: #4b5563;
 }
 .title{
     color: rgb(231, 119, 15);
