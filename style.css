@@ -5,8 +5,9 @@
 body {
   background-color: rgb(34, 34, 51);
 }
+
 .logo {
-  width: 200px;
+    width: 200px;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
   align-items: center;
   background-color: rgb(60, 60, 91);
 }
+
 .call-btn {
   background: #222233;
   color: #fff;
@@ -28,21 +30,25 @@ header {
 .call-btn:hover {
   background: #323238;
 }
+
 .links {
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  & a {
-    text-decoration: none;
-    color: white;
-    font-size: large;
-    padding: 5px;
-  }
-  & a:hover {
-    font-weight: bold;
-    border-bottom: 2px solid white;
-  }
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        padding: 5px;
+    }
+
+    & a:hover {
+        font-weight: bold;
+        border-bottom: 2px solid white;
+
+    }
 }
 
 .hero-section {
@@ -87,42 +93,47 @@ header {
   color: white !important;
 
 }
+
 .title {
-  color: rgb(231, 119, 15);
-  font-size: 40px;
-}
-.employees {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-}
-.employee {
-  margin: 20px 30px;
-  width: 300px;
-  height: 550px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(60, 60, 91);
-  border-radius: 10px;
-  color: rgb(231, 119, 15);
-  padding: 5px;
-  transition: 300ms;
-  box-shadow: 10px 10px 50px #615b9157;
-}
-.employee h2 {
-  padding-top: 10px;
-  font-size: 24px;
+    color: rgb(231, 119, 15);
+    font-size: 40px;
 }
 
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.employee {
+    margin: 20px 30px;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 91);
+    border-radius: 10px;
+    color: rgb(231, 119, 15);
+    padding: 5px;
+    transition: 300ms;
+    box-shadow: 10px 10px 50px #615b9157;
+}
+.employee h2 {
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+
 .employee img {
-  margin-top: 10px;
-  width: 300px;
-  height: 350px;
-  background-color: aliceblue;
-  border-radius: 10px;
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
 }
 .employee:hover {
   padding: 7px;
@@ -164,3 +175,45 @@ header {
 .arrow:hover {
   padding: 11px;
 }
+
+.zoo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    width: 1400px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.animal-card {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255,255,255,0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.animal-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border-color: rgba(255,255,255,0.6);
+}
+
+.animal-card span {
+    position: relative;
+    z-index: 2;
+}
+
+
