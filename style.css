@@ -216,4 +216,39 @@ header {
     z-index: 2;
 }
 
-
+.lion { 
+    grid-area: 1 / 1 / 3 / 3;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+}
+.hippo { 
+    grid-area: 1 / 4 / 3 / 6;
+    background: linear-gradient(135deg, #4ecdc4, #44a08d);
+}
+.giraffe { 
+    grid-area: 1 / 3 / 3 / 4;
+    background: linear-gradient(135deg, #45b7d1, #96c93d);
+}
+.monkey { 
+    grid-area: 3 / 1 / 6 / 2;
+    background: linear-gradient(135deg, #96ceb4, #556270);
+}
+.crocodile { 
+    grid-area: 3 / 2 / 5 / 4;
+    background: linear-gradient(135deg, #feca57, #ff9a00);
+}
+.lemur { 
+    grid-area: 3 / 4 / 5 / 6;
+    background: linear-gradient(135deg, #ff9ff3, #f368e0);
+}
+.zebra { 
+    grid-area: 5 / 2 / 6 / 4;
+    background: linear-gradient(135deg, #54a0ff, #2e86de);
+}
+.tiger { 
+    grid-area: 5 / 4 / 6 / 5;
+    background: linear-gradient(135deg, #5f27cd, #341f97);
+}
+.seal { 
+    grid-area: 5 / 4 / 6 / 6;
+    background: linear-gradient(135deg, #ff9f43, #ff7f00);
+}
