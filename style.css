@@ -1,5 +1,7 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(231, 119, 15);
 }
 
 body {
@@ -251,4 +253,35 @@ header {
 .seal { 
     grid-area: 5 / 4 / 6 / 6;
     background: linear-gradient(135deg, #ff9f43, #ff7f00);
+}
+
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.review{
+    width: 400px;
+    height: 270px;
+    background-color: rgb(60, 60, 91);
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.review img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 20px;
+
+}
+.review-user{
+    display: flex;
+    align-items: center;
+}
+.review-text{
+
+    padding: 20px;
+    padding-top: 0px;
 }
