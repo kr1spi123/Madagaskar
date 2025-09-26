@@ -95,7 +95,7 @@ header {
 }
 .employee{
     margin: 20px 30px;
-    width: 400px;
+    width: 300px;
     height: 550px;
     display: flex;
     flex-direction: column;
