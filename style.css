@@ -218,9 +218,6 @@ header {
     z-index: 2;
 }
 
-
-
-
 .reviews{
     display: flex;
     align-items: center;
@@ -229,7 +226,7 @@ header {
 }
 
 .review{
-    width: 400px;
+    width: 500px;
     height: 270px;
     background-color: rgb(60, 60, 91);
     border-radius: 5px;
