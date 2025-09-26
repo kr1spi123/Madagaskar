@@ -220,31 +220,31 @@ header {
 
 .lion { 
     grid-area: 1 / 1 / 3 / 3;
-    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    background: url(images/images.jpeg) no-repeat center/100%;
 }
 .hippo { 
     grid-area: 1 / 4 / 3 / 6;
-    background: linear-gradient(135deg, #4ecdc4, #44a08d);
+    background: url(images/hippo.jpg) no-repeat center/100%;
 }
 .giraffe { 
     grid-area: 1 / 3 / 3 / 4;
-    background: linear-gradient(135deg, #45b7d1, #96c93d);
+    background: url(images/giraffe76.jpg) no-repeat center/100%;
 }
 .monkey { 
     grid-area: 3 / 1 / 6 / 2;
-    background: linear-gradient(135deg, #96ceb4, #556270);
+    background: url(images/makakajpg.jpg) no-repeat center/100%;
 }
 .crocodile { 
     grid-area: 3 / 2 / 5 / 4;
-    background: linear-gradient(135deg, #feca57, #ff9a00);
+    background: url(images/krokodil.jpg) no-repeat center/100%;
 }
 .lemur { 
     grid-area: 3 / 4 / 5 / 6;
-    background: linear-gradient(135deg, #ff9ff3, #f368e0);
+    background: url(images/caption.jpg) no-repeat center/100%;
 }
 .zebra { 
     grid-area: 5 / 2 / 6 / 4;
-    background: linear-gradient(135deg, #54a0ff, #2e86de);
+    background: url(images/zebra.jpg) no-repeat center/100%;
 }
 .tiger { 
     grid-area: 5 / 4 / 6 / 5;
@@ -252,7 +252,7 @@ header {
 }
 .seal { 
     grid-area: 5 / 4 / 6 / 6;
-    background: linear-gradient(135deg, #ff9f43, #ff7f00);
+    background: url(images/morskoj-kotik-sreda-obitaniya-i-osobennosti-morskix-kotikov-3.jpg) no-repeat center/100%;
 }
 
 
